@@ -32,8 +32,3 @@ pnpm-debug.log*
 
 # MacOS system files
 .DS_Store
-
-
-node_modules/
-dist/
-.env

@@ -1,1 +1,11 @@
 @import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  /* * font family * */
+  --font-sora: "Sora", "serif";
+  --font-poppins: "Poppins", "serif";
+  --color-cefebe3: #efebe3;
+  --color-c111111: #111111;
+  --color-c179800: #179800;
+}

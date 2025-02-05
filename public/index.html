@@ -4,7 +4,79 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nature's Platter</title>
+        <script src="https://kit.fontawesome.com/88ac32cb69.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body></body>
+    <body class="font-sora text-c111111">
+        <header class="bg-gradient-to-b from-white to-cefebe3 px-4 xl:px-0">
+            <nav class="container max-w-[1320px] mx-auto flex justify-between items-center py-8">
+                <div>
+                    <img src="assets/img/logo.png" alt="">
+                </div>
+                <ul class="lg:flex gap-8 hidden">
+                    <li>
+                        <a href="">Product</a>
+                    </li>
+                    <li>
+                        <a href="">Services</a>
+                    </li>
+                    <li>
+                        <a href="">Contact us</a>
+                    </li>
+                </ul>
+                <div class="lg:flex items-center gap-6 hidden">
+                    <button>
+                        <img src="assets/img/search.png" alt="">
+                    </button>
+                    <button>
+                        <img src="assets/img/cart.png" alt="">
+                    </button>
+                    <button class="border border-c179800 py-2.5 px-7 rounded-lg cursor-pointer">
+                        Login
+                    </button>
+                    <button class="bg-c179800 py-2.5 px-7 rounded-lg text-white cursor-pointer">
+                        Register
+                    </button>
+                </div>
+                <div class="drawer w-auto lg:hidden">
+                    <input id="my-drawer" type="checkbox" class="drawer-toggle">
+                    <div class="drawer-content">
+                        <!-- Page content here -->
+                        <label for="my-drawer" class="">
+                            <i class="fa-solid fa-bars text-2xl text-c179800"></i>
+                        </label>
+                    </div>
+                    <div class="drawer-side">
+                        <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+                        <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+                            <li>
+                                <a href="">Product</a>
+                            </li>
+                            <li>
+                                <a href="">Services</a>
+                            </li>
+                            <li>
+                                <a href="">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div>
+                <h1>
+                    Freshness
+                    <span class="text-c179800">
+                        You Can
+                  Count
+                    </span>
+                    On, Prices You’ll Love!
+                </h1>
+                <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+                <img src="assets/img/hero-image.png" alt="">
+            </div>
+        </header>
+    </body>
 </html>
