@@ -11,8 +11,8 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body class="font-sora text-c111111">
-        <header class="bg-gradient-to-b from-white to-cefebe3 px-4 xl:px-0">
-            <nav class="container max-w-[1320px] mx-auto flex justify-between items-center py-8">
+        <header class="bg-gradient-to-b from-white to-cefebe3">
+            <nav class="container max-w-[1320px] mx-auto flex justify-between items-center py-8 border-b border-c179800 lg:border-b-0 px-4 xl:px-0">
                 <div>
                     <img src="assets/img/logo.png" alt="">
                 </div>
@@ -65,18 +65,183 @@
                     </div>
                 </div>
             </nav>
-            <div>
-                <h1>
+            <div class="container max-w-[1320px] mx-auto text-center pt-12 px-4 xl:px-0">
+                <h1 class="font-semibold lg:text-[56px]/tight mb-3 text-3xl">
                     Freshness
                     <span class="text-c179800">
                         You Can
-                  Count
+                        <br>
+                        Count
                     </span>
                     On, Prices You’ll Love!
                 </h1>
-                <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
-                <img src="assets/img/hero-image.png" alt="">
+                <p class="lg:text-xl text-base mb-8">
+                    Shop your daily essentials at unbeatable prices. From fresh produce to pantry
+                    <br>
+                    staples, we’ve got you covered every day!
+                </p>
+                <img class="mx-auto" src="assets/img/hero-image.png" alt="">
             </div>
         </header>
+        <section class="container max-w-[1320px] mx-auto py-34 px-4 xl:px-0">
+            <h2 class="text-c179800 text-4xl font-semibold mb-10">Services</h2>
+            <div class="flex gap-6 lg:flex-row flex-col">
+                <div class="bg-cefebe3 rounded-2xl p-8 text-center flex-1">
+                    <div class="bg-white mb-6 w-[150px] h-[150px] mx-auto flex justify-center items-center rounded-full">
+                        <img src="assets/img/services/24-7-services.png" alt="">
+                    </div>
+                    <h3 class="mb-3 text-2xl font-semibold">24/7 Services</h3>
+                    <p class="font-light text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+                <div class="bg-cefebe3 rounded-2xl p-8 text-center flex-1">
+                    <div class="bg-white mb-6 w-[150px] h-[150px] mx-auto flex justify-center items-center rounded-full">
+                        <img src="assets/img/services/fast-delivery.png" alt="">
+                    </div>
+                    <h3 class="mb-3 text-2xl font-semibold">Fast Delivery</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+                <div class="bg-cefebe3 rounded-2xl p-8 text-center flex-1">
+                    <div class="bg-white mb-6 w-[150px] h-[150px] mx-auto flex justify-center items-center rounded-full">
+                        <img src="assets/img/services/healthy-products.png" alt="">
+                    </div>
+                    <h3 class="mb-3 text-2xl font-semibold">Healthy Products</h3>
+                    <p class="font-light text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+            </div>
+        </section>
+        <section class="px-4 xl:px-0 bg-cefebe3  py-34">
+            <h2 class="container max-w-[1320px] mx-auto text-c179800 text-4xl font-semibold mb-10">Popular Products</h2>
+            <div class="container max-w-[1320px] mx-auto flex xl:flex-row flex-col gap-6">
+                <div class="flex-none xl:w-[424px] bg-gradient-to-br from-[#53DB3A] to-[#FFFFFF] pl-8 pt-12 rounded-lg">
+                    <div>
+                        <h3 class="text-3xl text-white font-bold mb-3">30% off</h3>
+                        <p class="pr-14 mb-5">Discover a world of treats, toys, and essentials handpicked for</p>
+                        <button class="bg-white text-xl px-8 py-3 rounded-lg cursor-pointer">Buy Now</button>
+                    </div>
+                    <div class="flex justify-end items-end flex-1 lg:-mt-14">
+                        <img src="assets/img/popular-products/30-percent-off.png" alt="">
+                    </div>
+                </div>
+                <div class="flex-1 grid grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white rounded-lg p-4 flex gap-4 items-center">
+                        <div class="w-[86px] h-[86px] rounded-lg bg-cefebe3 p-2 flex justify-center items-center">
+                            <img src="assets/img/popular-products/onion.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2 mb-1.5">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <span>4.5</span>
+                            </div>
+                            <h4 class="mb-1.5 font-semibold text-lg">Onion 1 KG</h4>
+                            <p class="font-semibold">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 flex gap-4 items-center">
+                        <div class="w-[86px] h-[86px] rounded-lg bg-cefebe3 p-2 flex justify-center items-center">
+                            <img src="assets/img/popular-products/onion.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2 mb-1.5">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <span>4.5</span>
+                            </div>
+                            <h4 class="mb-1.5 font-semibold text-lg">Onion 1 KG</h4>
+                            <p class="font-semibold">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 flex gap-4 items-center">
+                        <div class="w-[86px] h-[86px] rounded-lg bg-cefebe3 p-2 flex justify-center items-center">
+                            <img src="assets/img/popular-products/onion.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2 mb-1.5">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <span>4.5</span>
+                            </div>
+                            <h4 class="mb-1.5 font-semibold text-lg">Onion 1 KG</h4>
+                            <p class="font-semibold">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 flex gap-4 items-center">
+                        <div class="w-[86px] h-[86px] rounded-lg bg-cefebe3 p-2 flex justify-center items-center">
+                            <img src="assets/img/popular-products/onion.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2 mb-1.5">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <span>4.5</span>
+                            </div>
+                            <h4 class="mb-1.5 font-semibold text-lg">Onion 1 KG</h4>
+                            <p class="font-semibold">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 flex gap-4 items-center">
+                        <div class="w-[86px] h-[86px] rounded-lg bg-cefebe3 p-2 flex justify-center items-center">
+                            <img src="assets/img/popular-products/onion.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2 mb-1.5">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <span>4.5</span>
+                            </div>
+                            <h4 class="mb-1.5 font-semibold text-lg">Onion 1 KG</h4>
+                            <p class="font-semibold">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 flex gap-4 items-center">
+                        <div class="w-[86px] h-[86px] rounded-lg bg-cefebe3 p-2 flex justify-center items-center">
+                            <img src="assets/img/popular-products/onion.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2 mb-1.5">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <span>4.5</span>
+                            </div>
+                            <h4 class="mb-1.5 font-semibold text-lg">Onion 1 KG</h4>
+                            <p class="font-semibold">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 flex gap-4 items-center">
+                        <div class="w-[86px] h-[86px] rounded-lg bg-cefebe3 p-2 flex justify-center items-center">
+                            <img src="assets/img/popular-products/onion.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2 mb-1.5">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <span>4.5</span>
+                            </div>
+                            <h4 class="mb-1.5 font-semibold text-lg">Onion 1 KG</h4>
+                            <p class="font-semibold">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 flex gap-4 items-center">
+                        <div class="w-[86px] h-[86px] rounded-lg bg-cefebe3 p-2 flex justify-center items-center">
+                            <img src="assets/img/popular-products/onion.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2 mb-1.5">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <span>4.5</span>
+                            </div>
+                            <h4 class="mb-1.5 font-semibold text-lg">Onion 1 KG</h4>
+                            <p class="font-semibold">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 flex gap-4 items-center">
+                        <div class="w-[86px] h-[86px] rounded-lg bg-cefebe3 p-2 flex justify-center items-center">
+                            <img src="assets/img/popular-products/onion.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2 mb-1.5">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <span>4.5</span>
+                            </div>
+                            <h4 class="mb-1.5 font-semibold text-lg">Onion 1 KG</h4>
+                            <p class="font-semibold">$39.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
